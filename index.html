@@ -22,30 +22,30 @@
 		<div id="landing" class="vh-100% m-0 p-0">
 			<!-- Navbar Section Start -->
 			<nav id="navbar-container" class="container-fluid col-10 p-0">
-				<div id="nav-caliwan" class="text-center text-dark bg-white">
-					<a href="#landing" class="text-decoration-none text-dark"><h1 id="caliwan" class="m-0 mt-3">My Porfotio</h1></a>
+				<div id="nav-caliwan" class="text-center">
+					<a href="#landing" class="text-decoration-none text-dark"><h1 id="my-portfolio" class="m-0 text-white">My Porfotio</h1></a>
 				</div>
-				<nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+				<nav class="navbar navbar-expand-lg navbar-light p-0">
 					<div class="container-fluid text-center p-0">
 						<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse" id="navbarNav">
-							<ul class="navbar-nav mx-auto">
+							<ul class="navbar-nav mx-auto text-white">
 								<li id="nav-list" id="nav-list" class="nav-item">
-									<a class="nav-link active"href="#profile-pic">About me</a>
+									<a class="nav-link active text-white" href="#profile-pic">About me</a>
 								</li>
 								<span>|</span>
 								<li id="nav-list" class="nav-item">
-									<a class="nav-link active" href="#projects">Projects</a>
+									<a class="nav-link active text-white" href="#projects">Projects</a>
 								</li>
 								<span>|</span>
 								<li id="nav-list" class="nav-item">
-									<a class="nav-link active" href="#tools">Tools</a>
+									<a class="nav-link active text-white" href="#tools">Tools</a>
 								</li>
 								<span>|</span>
 								<li id="nav-list" class="nav-item">
-									<a class="nav-link active pe-0" href="#contact">Contact</a>
+									<a class="nav-link active text-white" href="#contact">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -57,10 +57,10 @@
 			<!-- Profile Section Start -->
 			<div id="bg-image"class="col-10 p-4 text-center text-white offset-1 mx-auto mt-2 p-3 p-md-4 d-flex flex-column">
 				<img id="profile-pic" class="img-fluid rounded-circle mx-auto" src="./images/profile-pic.jpg">
-				<h2 class="pb-2 mt-3">Angelo Caliwan</h2>
-				<h4 class="text-uppercase mt-1">Full Stack Web Developer</h4>
-				<p id="profile-paragraph" class="mt-3 col-6 offset-3">
-					Hi, I'm Angelo C. Caliwan, Thank you for this opportunity to learn programming as aspire to become a Full-stack Web developer. To tell you about my self I like to play computer games and mobile games like dota 2, CS:GO, and mobile legends. Also I just started to jog in the morning and walk for 20 to 30 mins in the afternoon.
+				<h2 id="profile-paragraph" class="pb-2 mt-3">Angelo Caliwan</h2>
+				<h4 id="profile-paragraph" class="text-uppercase mt-1">Full Stack Web Developer</h4>
+				<p id="profile-paragraph" class="mt-3 col-8 offset-2">
+					Hello! I am Angelo Caliwan a Full stack web developer who loves creating websites. I believe that I am able to see the big picture when building something to make it creative and beautiful. Also, I have a strong command over both front-end and back-end technologies, allowing me to build complete and scalable applications.
 				</p>
 			</div>
 			<!-- Profile Section End -->
@@ -72,7 +72,7 @@
 		<main class="container-fluid p-0">
 
 			<!-- Projects Section Start -->
-			<div id="projects" class="row bg-dark text-white col-10 offset-1 d-flex justify-content-center mx-auto pb-5 min-vh-100">
+			<div id="projects" class="row bg-dark text-white col-12 d-flex justify-content-center pb-5 min-vh-100 m-0">
 				<h2 id="main-parts" class="text-center text-white p-3 mt-5">Projects</h2>
 
 				<!-- Project 1 Start -->
@@ -108,7 +108,7 @@
 			<!-- Projects Section End -->
 
 			<!-- Tools Section Start -->
-			<div id="tools" class="container-fluid row text-white col-10 offset-1 p-0">
+			<div id="tools" class="container-fluid row text-white col-12 m-0">
 				<!-- Core Tools Section Start -->
 				<h2 id="main-parts" class="text-center mt-5">Tools</h2>
 				<div id="core-tools" class="col-lg-8 col-md-10 offset-2 p-0">
@@ -139,6 +139,12 @@
 		<!-- Contact Section Start -->
 		<section id="contact" class="row col-6 mx-auto my-5">
 			<h2 id="main-parts" class="text-center">Contact</h2>
+			<div class="d-flex justify-content-center">
+				<a id="contact-logo" href="#"><img class="img-fluid" src="images/fb-logo.png"></a>
+				<a id="contact-logo"href="#"><img class="img-fluid" src="images/twitter-logo.png"></a>
+				<a id="contact-logo" href="#"><img class="img-fluid" src="images/linkedin-logo.png"></a>
+				<a id="contact-logo" href="#"><img class="img-fluid" src="images/gmail-logo.png"></a>
+			</div>
 			<div id="contact-item" class="mb-3">
 			  <label for="exampleFormControlInput1" class="form-label">Full Name</label>
 			  <input type="email" class="form-control" id="exampleFormControlInput1">
@@ -158,12 +164,12 @@
 		<!-- Contact Section End -->
 
 		<!-- Footer Start -->
-		<footer id="footer" class="">
-			<div>
-				<span>Angelo Caliwan</span>
-				<span>|</span>
-				<span>Web Developer</span>
-				<div>Capstone 1</div>
+		<footer id="footer" class="d-block p-3">
+			<div class="col-12 text-white text-center">
+				<p id="footer-p-items" class="mb-1">Capstone 1</p>
+				<span id="footer-items">Angelo Caliwan</span>
+				<span id="footer-items">|</span>
+				<span id="footer-items">Web Developer</span>
 			</div>
 		</footer>
 		<!-- Footer Start -->
