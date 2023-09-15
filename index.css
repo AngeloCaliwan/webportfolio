@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+body {
+	font-family: open sans, roboto, sans-serif;
+}
+
+#nav-caliwan {
+	font-family: dancing script, open sans;
+}
+
+#caliwan {
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+#nav-portfolio {
+	font-size: 1.5rem;
+	font-weight: 900;
+}
+
+ul #nav-list {
+	font-size: 1rem;
+}
+span {
+	font-size: 1.25rem;
+}
+
+#profile-pic {
+	width: 200px;
+	height: 200px;
+}
+
+#bg-image {
+	background-image: url(./images/profile-background.jpg);
+	background-size: 100%;
+	min-height: 550px;
+}
+
+#card-1 {
+/*	width: 18rem;*/
+}
+
+#projects {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+#tools {
+	background-image: linear-gradient(#552586,#B589D6);
+}
+#img-tools {
+	width: 150px;
+}
+
+#exampleFormControlInput1, #exampleFormControlTextarea1 {
+	border: 1px solid black;
+}
+
+#main-parts {
+	font-family: roboto serif;
+}
