@@ -21,30 +21,27 @@
 		<!-- Landing Page Start -->
 		<div id="landing" class="vh-100% m-0 p-0">
 			<!-- Navbar Section Start -->
-			<nav id="navbar-container" class="container-fluid col-10 p-0">
+			<nav id="navbar-container" class="container-fluid col-12 col-md-12 p-0">
 				<div id="nav-caliwan" class="text-center">
 					<a href="#landing" class="text-decoration-none text-dark"><h1 id="my-portfolio" class="m-0 text-white">My Porfotio</h1></a>
 				</div>
 				<nav class="navbar navbar-expand-lg navbar-light p-0">
-					<div class="container-fluid text-center p-0">
-						<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<div id="toggle-div" class="container-fluid text-center p-0">
+						<button id="toggle-button" class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse" id="navbarNav">
 							<ul class="navbar-nav mx-auto text-white">
-								<li id="nav-list" id="nav-list" class="nav-item">
+								<li id="nav-list" id="nav-list" class="nav-item mx-2">
 									<a class="nav-link active text-white" href="#profile-pic">About me</a>
 								</li>
-								<span>|</span>
-								<li id="nav-list" class="nav-item">
+								<li id="nav-list" class="nav-item mx-2">
 									<a class="nav-link active text-white" href="#projects">Projects</a>
 								</li>
-								<span>|</span>
-								<li id="nav-list" class="nav-item">
+								<li id="nav-list" class="nav-item mx-2">
 									<a class="nav-link active text-white" href="#tools">Tools</a>
 								</li>
-								<span>|</span>
-								<li id="nav-list" class="nav-item">
+								<li id="nav-list" class="nav-item mx-2">
 									<a class="nav-link active text-white" href="#contact">Contact</a>
 								</li>
 							</ul>
@@ -55,7 +52,7 @@
 			<!-- Navbar Section End -->
 
 			<!-- Profile Section Start -->
-			<div id="bg-image"class="col-10 p-4 text-center text-white offset-1 mx-auto mt-2 p-3 p-md-4 d-flex flex-column">
+			<div id="bg-image"class="col-12 col-md-12 p-4 text-center text-white offset-1 mx-auto mt-2 p-3 p-md-4 d-flex flex-column">
 				<img id="profile-pic" class="img-fluid rounded-circle mx-auto" src="./images/profile-pic.jpg">
 				<h2 id="profile-paragraph" class="pb-2 mt-3">Angelo Caliwan</h2>
 				<h4 id="profile-paragraph" class="text-uppercase mt-1">Full Stack Web Developer</h4>
@@ -72,11 +69,11 @@
 		<main class="container-fluid p-0">
 
 			<!-- Projects Section Start -->
-			<div id="projects" class="row bg-dark text-white col-12 d-flex justify-content-center pb-5 min-vh-100 m-0">
+			<div id="projects" class="row bg-dark text-white col-12 col-md-12 d-flex justify-content-center pb-5 min-vh-100 m-0">
 				<h2 id="main-parts" class="text-center text-white p-3 mt-5">Projects</h2>
 
 				<!-- Project 1 Start -->
-				<div id="card-1" class="card col-xl-3 col-lg-3 col-md-8 mx-3 my-3">
+				<div id="card-1" class="card col-xl-4 col-lg-4 col-md-10 mx-3 my-3">
 				  <img src="./images/project-1.jpg" class="card-img-top" alt="...">
 				  <div class="card-body text-dark text-center">
 				    <h5 class="card-title">Youtube Clone</h5>
@@ -86,7 +83,7 @@
 				<!-- Project 1 End -->
 
 				<!-- Project 2 Start -->
-				<div id="card-1" class="card col-xl-3 col-lg-3 col-md-8 mx-3 my-3">
+				<div id="card-1" class="card col-xl-4 col-lg-4 col-md-10 mx-3 my-3">
 					<img src="./images/project-2.jpg" class="card-img-top" alt="...">
 					<div class="card-body text-dark text-center">
 						<h5 class="card-title">Activity s08</h5>
@@ -96,7 +93,7 @@
 				<!-- Project 2 End -->
 
 				<!-- Project 3 Start -->
-				<div id="card-1" class="card col-xl-3 col-lg-3 col-md-8 mx-3 my-3">
+				<div id="card-1" class="card col-xl-4 col-lg-4 col-md-10 mx-3 my-3">
 				  <img src="./images/project-3.jpg" class="card-img-top" alt="...">
 				  <div class="card-body text-dark text-center">
 				    <h5 class="card-title">Group Activity</h5>
@@ -108,10 +105,10 @@
 			<!-- Projects Section End -->
 
 			<!-- Tools Section Start -->
-			<div id="tools" class="container-fluid row text-white col-12 m-0">
+			<div id="tools" class="container-fluid row text-white col-12 col-md-12 m-0">
 				<!-- Core Tools Section Start -->
 				<h2 id="main-parts" class="text-center mt-5">Tools</h2>
-				<div id="core-tools" class="col-lg-8 col-md-10 offset-2 p-0">
+				<div id="core-tools" class="col-lg-6 col-8 offset-md-3 offset-2 p-0">
 				    <div id="html" class="d-lg-flex justify-content-center p-0">
 				        <img class="img-fluid" src="images/logo-html5.png"/>
 				        <img class="img-fluid" src="images/logo-css3.png"/>
@@ -121,7 +118,7 @@
 				        <img class="img-fluid" src="images/logo-expressjs.png"/>
 				    </div>
 				</div>
-				<div id="other-tools" class=" col-lg-8 col-md-10 offset-2 p-0">
+				<div id="other-tools" class=" col-lg-6 col-8 offset-md-3 offset-2 p-0">
 				    <div id="tools-2" class="d-lg-flex justify-content-center mb-5 p-0">
 				    	<img class="img-fluid" src="images/logo-react.png"/>
 				        <img class="img-fluid" src="images/logo-heroku.png"/>
@@ -137,7 +134,7 @@
 		<!-- Main Content Start -->
 
 		<!-- Contact Section Start -->
-		<section id="contact" class="row col-6 mx-auto my-5">
+		<section id="contact" class="row col-6 col-md-12 mx-auto my-5">
 			<h2 id="main-parts" class="text-center">Contact</h2>
 			<div class="d-flex justify-content-center">
 				<a id="contact-logo" href="#"><img class="img-fluid" src="images/fb-logo.png"></a>
